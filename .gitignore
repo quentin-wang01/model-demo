@@ -1,0 +1,60 @@
+# 忽略 Android 构建文件和临时文件
+
+# Gradle
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Android Studio
+*.apk
+*.ap_
+*.aar
+*.dex
+*.class
+.classpath
+.project
+.settings/
+local.properties
+
+# Git
+.git/
+.gitignore
+
+# Test
+*.log
+instrumented/
+
+# Kotlin
+.kotlin/
+kotlin-build/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Misc
+.name
+.directory
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
